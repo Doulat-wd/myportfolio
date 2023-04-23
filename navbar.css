@@ -1,0 +1,343 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.navbar-brand {
+  margin-left: 10%;
+  color: white;
+}
+.navbar-brand:hover {
+  margin-left: 10%;
+  color: white;
+}
+.nav-link {
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 400;
+   max-width: 100px;
+  text-align: center;
+}
+.nav-link:hover {
+  background-color: white;
+  color: green;
+  border-radius: 2px;
+  max-width: 100px;
+}
+.bg-body-tertiary {
+  background-color: green !important;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-nav {
+  /* width: 100%; */
+  padding-left: 50%;
+}
+#firstdiMage {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+#Inage_Profile {
+  width: 70%;
+}
+#firstDiv {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+}
+#FirstDivINtro {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10%;
+  align-items: center;
+}
+#Myname {
+  font-size: 70px;
+}
+
+/* media */
+@media only screen and (max-width: 1000px) {
+  #firstDiv {
+    display: block;
+  }
+  #FirstDivINtro {
+    width: 100%;
+  }
+  #firstdiMage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #Myname {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #Myname {
+    font-size: 40px;
+  }
+}
+/* navbar and first div over */
+/* second div start */
+#secondDiv {
+  margin-top: 200px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+}
+#About {
+  width: 50%;
+  padding: 10px;
+}
+#BasicInformation {
+  width: 50%;
+  padding: 10px;
+}
+.AboutHeadings {
+  font-size: 24px;
+}
+.AboutParagraphs {
+  text-align: justify;
+}
+.AboutHeadings1 {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+  width: 20%;
+}
+.AboutParagraph11 {
+  margin-left: 10%;
+}
+.DivBasicInfrom {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+/* media */
+@media only screen and (max-width: 1000px) {
+  #secondDiv {
+    display: block;
+  }
+  #About {
+    width: 100%;
+  }
+  #BasicInformation {
+    width: 100%;
+  }
+  .DivBasicInfrom {
+    margin-top: 8px;
+  }
+}
+/* second div start  over*/
+
+/* thirddiv start */
+#ProfessinalSkills {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#thirddiv {
+  margin-top: 200px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+::selection {
+  background: salmon;
+  color: white;
+}
+
+b {
+  font-size: 31px;
+}
+
+.progress {
+  border: 1px solid #b0b0b0;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 3px #b0b0;
+  /* backdrop-filter: blur(2px) brightness(101%); */
+}
+
+.bar {
+  width: 100%;
+  background: forestgreen;
+  box-shadow: inset 0px 12px 1.7px #ffffff33;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+.bar.english {
+  background: forestgreen;
+  width: 90%;
+}
+.bar.spanish {
+  background: dodgerblue;
+  width: 90%;
+}
+
+.bar.italian {
+  background: indigo;
+  width: 90%;
+}
+
+.bar.french {
+  background: darkblue;
+  width: 90%;
+}
+
+.bar.croatian {
+  background: red;
+  width: 98%;
+}
+
+.bar.russian {
+  background: darkorange;
+  width: 100%;
+}
+
+.bar.albanian {
+  background: tomato;
+  width: 85%;
+}
+.bar.Material {
+  background: rgb(168, 253, 9);
+  width: 95%;
+}
+.bar.es6 {
+  background: aqua;
+  width: 93%;
+}
+.LanguagesName {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#fourthDiv {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #B0B0B0; */
+}
+#fourthDiv > div {
+  width: 45%;
+  border-radius: 5px;
+  height: 250px;
+  margin: 5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#fourthDiv > div > div {
+  background-color: #b0b0b0;
+  opacity: 80%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+  font-size: 30px;
+  font-weight: 700;
+  display: none;
+}
+#firstAssignment {
+  background-image: url(./images/portofolio/useradmin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#secAssignment {
+  background-image: url(./images/portofolio/excellencecenter.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#ThirdAssignment {
+  background-image: url(./images/portofolio/Screenshot\ 2023-04-22\ 073233.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.PortfolioHeading {
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 770px) {
+  #fourthDiv > div {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #fourthDiv > div {
+    width: 80%;
+    height: 200px;
+  }
+}
+
+#fifthDiv {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+#contactMainDiv {
+  width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+border-radius: 5px;
+}
+#contactmeHeading {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.contactMainH1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.contactMainH12 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+#contactMainDiv{
+  width: 100%;
+}
+}
